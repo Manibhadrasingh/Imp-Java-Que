@@ -4,8 +4,8 @@ import java.io.InputStreamReader;
 
 public class TakingInput {
     public static void main(String[] args) throws NumberFormatException, IOException {
-        int i=0;
-        int j =0;
+        // int i=0;
+        // int j =0;
 
         try(BufferedReader bf = new BufferedReader(new InputStreamReader(System.in))){
              int num =Integer.parseInt(bf.readLine());
